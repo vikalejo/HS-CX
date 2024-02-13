@@ -1,0 +1,11 @@
+{
+  "name": "2046b1fa-9a93-4b1f-afc0-b4a86b3af0c6",
+  "displayName": "welcome victor",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "description": "This could be the welcome intent per each partner",
+  "numTrainingPhrases": 2
+}

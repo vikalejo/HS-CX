@@ -1,0 +1,13 @@
+{
+  "name": "548618c8-5039-438f-9a57-105ac32b04cf",
+  "displayName": "happy new year folks!",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

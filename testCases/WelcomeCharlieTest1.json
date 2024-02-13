@@ -1,0 +1,40 @@
+{
+  "name": "f458854b-3280-4f90-9886-4b6646f89b8e",
+  "tags": [ "#victortest" ],
+  "displayName": "WelcomeCharlieTest1",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Hi"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": " Welcome to Charlie"
+      },
+      "textResponses": [ {
+        "text": [ "Hi, what can I do for you today?! " ]
+      } ],
+      "currentFlow": {
+        "name": " Welcome to Charlie"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1707840198,
+    "nanos": 593984000
+  },
+  "testConfig": {
+    "flow": " Welcome to Charlie",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

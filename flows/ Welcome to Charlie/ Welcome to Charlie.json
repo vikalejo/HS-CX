@@ -1,0 +1,60 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": " Welcome to Charlie",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi, what can I do for you today?! " ]
+        },
+        "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/cx-victor-test/locations/global/agents/aab8f2d6-f9d9-4c56-abef-415e612ca358/generators/548618c8-5039-438f-9a57-105ac32b04cf",
+        "outputParameter": "$request.generative.happy"
+      } ]
+    },
+    "name": "7ba53018-3ae9-4c88-8093-e2a102e16282"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ],
+      "enableGenerativeFallback": true,
+      "generators": [ {
+        "generator": "projects/cx-victor-test/locations/global/agents/aab8f2d6-f9d9-4c56-abef-415e612ca358/generators/548618c8-5039-438f-9a57-105ac32b04cf",
+        "outputParameter": "$request.generative."
+      } ]
+    },
+    "name": "22f71cd9-27da-491e-b735-12ef63681b9a"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "ba05bc27-f77f-48fb-93be-d773657d8fc7"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

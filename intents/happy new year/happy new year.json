@@ -1,0 +1,11 @@
+{
+  "name": "a9cb6602-4607-42f8-afe0-0958cf4e8ad0",
+  "displayName": "happy new year",
+  "parameters": [ {
+    "id": "date-period",
+    "entityType": "@sys.date-period"
+  } ],
+  "priority": 500000,
+  "description": "Wish an a happy new year to my lovely team!",
+  "numTrainingPhrases": 3
+}
