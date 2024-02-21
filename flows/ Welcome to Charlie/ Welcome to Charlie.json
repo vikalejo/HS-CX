@@ -7,15 +7,18 @@
     "triggerFulfillment": {
       "messages": [ {
         "text": {
-          "text": [ "Hi, what can I do for you today?! " ]
+          "text": [ "Hi, this is Charlie, how can I help you?" ]
         },
         "languageCode": "en"
       } ],
+      "webhook": "GetBrandFromNumber",
+      "tag": "#brand",
       "generators": [ {
         "generator": "projects/cx-victor-test/locations/global/agents/aab8f2d6-f9d9-4c56-abef-415e612ca358/generators/548618c8-5039-438f-9a57-105ac32b04cf",
         "outputParameter": "$request.generative.happy"
       } ]
     },
+    "targetFlow": "Account Balance",
     "name": "7ba53018-3ae9-4c88-8093-e2a102e16282"
   } ],
   "eventHandlers": [ {
