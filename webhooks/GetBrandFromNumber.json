@@ -1,0 +1,11 @@
+{
+  "name": "f060827e-bc2d-4012-bd31-c5724c9b9056",
+  "displayName": "GetBrandFromNumber",
+  "genericWebService": {
+    "uri": "https://us-central1-cx-victor-test.cloudfunctions.net/sandox-functions-getbrand",
+    "serviceAgentAuth": "NONE"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}
