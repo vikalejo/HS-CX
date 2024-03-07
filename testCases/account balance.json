@@ -1,0 +1,63 @@
+{
+  "name": "a5e66798-9212-4460-a4c7-6ecf55f1ca36",
+  "tags": [ "#myaccount" ],
+  "displayName": "account balance",
+  "notes": "posittive test",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "HOla"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Account Balance"
+      },
+      "textResponses": [ {
+        "text": [ "Hi, this is Charlie, how can I help you?" ]
+      } ],
+      "currentFlow": {
+        "name": "Account Balance"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "I need information"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "account-balance"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Account Balance"
+      },
+      "currentFlow": {
+        "name": "Account Balance"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1708619422,
+    "nanos": 462947000
+  },
+  "testConfig": {
+    "flow": " Welcome to Charlie",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}
