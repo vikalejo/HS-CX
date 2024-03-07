@@ -16,8 +16,7 @@
           "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
         },
         "languageCode": "en"
-      } ],
-      "enableGenerativeFallback": true
+      } ]
     },
     "name": "567e8b6e-8840-4ad5-a2be-1555019ddbe3"
   }, {
