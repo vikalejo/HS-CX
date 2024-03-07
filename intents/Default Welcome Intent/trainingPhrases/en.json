@@ -1,6 +1,13 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
+      "text": "howdy!!",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
       "text": "Happy holidays!"
     } ],
     "repeatCount": 1,
