@@ -1,13 +1,6 @@
 {
   "trainingPhrases": [ {
     "parts": [ {
-      "text": "howdy!",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "parts": [ {
       "text": "Happy holidays!"
     } ],
     "repeatCount": 1,
@@ -32,14 +25,6 @@
     "id": "65f99f3f-da4d-4223-bce6-299dce22ac4d",
     "parts": [ {
       "text": "hello hi",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
-  }, {
-    "id": "11eb58ea-a321-49d1-b7f2-39ae7dee88e0",
-    "parts": [ {
-      "text": "howdy",
       "auto": true
     } ],
     "repeatCount": 1,
