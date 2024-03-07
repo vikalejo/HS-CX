@@ -6,12 +6,5 @@
     } ],
     "repeatCount": 1,
     "languageCode": "en"
-  }, {
-    "parts": [ {
-      "text": "balance",
-      "auto": true
-    } ],
-    "repeatCount": 1,
-    "languageCode": "en"
   } ]
 }
